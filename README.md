@@ -23,7 +23,7 @@ I use AI-assisted development tools as a productivity multiplier: to accelerate 
 - **Architecture:** MVVM, UDF, clean separation of concerns  
 - **Async:** Kotlin Coroutines, Flow  
 - **DI:** Hilt  
-- **Testing:** JUnit, Espresso (with an emphasis on stability and determinism)  
+- **Testing:** JUnit, Robolectric, Espresso (with an emphasis on stability and determinism)  
 - **Tools:** Android Studio, Gradle, GitHub Actions  
 
 ---
@@ -49,20 +49,6 @@ My background includes working closer to the Android platform and framework laye
 - Understanding limitations and trade-offs in higher-level APIs
 
 This perspective helps me reason about issues that aren’t always obvious from the UI layer alone.
-
----
-
-## 🚧 Current Work
-
-I’m currently developing a private Android application focused on applying modern app architecture in a realistic networking scenario.
-
-The app includes:
-- A remote data layer built with **Retrofit** and **Moshi**
-- Coroutine-first, suspend-based APIs
-- Clear separation between network, domain, and UI layers
-- Explicit state modeling and lifecycle-aware behavior
-
-The project is being refined privately and will be made public once the architecture and documentation clearly reflect how I approach production-quality Android development.
 
 ---
 
